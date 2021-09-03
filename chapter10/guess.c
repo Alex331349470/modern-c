@@ -3,6 +3,7 @@
 #include <time.h>
 
 #define MAX_NUMBER 100
+#define SOME_THING 50
 
 int secret_number;
 
