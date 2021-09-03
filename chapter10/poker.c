@@ -6,7 +6,6 @@
 #define NUM_RANKS 13
 #define NUM_SUITS 4
 #define NUM_CARDS 5
-
 //external variable
 int num_in_rank[NUM_RANKS];
 int num_in_suit[NUM_SUITS];
