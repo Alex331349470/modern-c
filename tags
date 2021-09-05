@@ -1,0 +1,84 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+FREEZING_PT	chapter2/celsius.c	3;"	d	file:
+INITAL_BALANCE	chapter8/interest.c	6;"	d	file:
+MAX_NUMBER	chapter10/guess.c	5;"	d	file:
+MAX_NUMBER	chapter10/guess2.c	6;"	d	file:
+N	chapter8/reverse.c	5;"	d	file:
+N	chapter9/qsort.c	2;"	d	file:
+NUM_CARDS	chapter10/poker.c	8;"	d	file:
+NUM_RANKS	chapter10/poker.c	6;"	d	file:
+NUM_RANKS	chapter8/deal.c	7;"	d	file:
+NUM_RATES	chapter8/interest.c	5;"	d	file:
+NUM_SUITS	chapter10/poker.c	7;"	d	file:
+NUM_SUITS	chapter8/deal.c	6;"	d	file:
+SCALE_FACTOR	chapter2/celsius.c	4;"	d	file:
+STACK_SIZE	chapter10/stack.c	2;"	d	file:
+analyze_hand	chapter10/poker.c	/^void analyze_hand(void)$/;"	f	signature:(void)
+average	chapter9/average.c	/^double average(double a, double b)$/;"	f	signature:(double a, double b)
+choose_new_secret_number	chapter10/guess.c	/^void choose_new_secret_number(void)$/;"	f	signature:(void)
+contents	chapter10/stack.c	/^int contents[STACK_SIZE];$/;"	v
+fact	chapter9/digui.c	/^int fact(int n)$/;"	f	signature:(int n)
+flush	chapter10/poker.c	/^bool straight, flush, four, three;$/;"	v
+four	chapter10/poker.c	/^bool straight, flush, four, three;$/;"	v
+initialize_number_generator	chapter10/guess.c	/^void initialize_number_generator(void)$/;"	f	signature:(void)
+initialize_number_generator	chapter10/guess2.c	/^void initialize_number_generator(void)$/;"	f	signature:(void)
+is_empty	chapter10/stack.c	/^bool is_empty(void)$/;"	f	signature:(void)
+is_full	chapter10/stack.c	/^bool is_full(void)$/;"	f	signature:(void)
+is_prime	chapter9/prime.c	/^bool is_prime(int n)$/;"	f	signature:(int n)
+main	chapter10/guess.c	/^int main(void)$/;"	f	signature:(void)
+main	chapter10/guess2.c	/^int main(void)$/;"	f	signature:(void)
+main	chapter10/poker.c	/^int main(void)$/;"	f	signature:(void)
+main	chapter2/celsius.c	/^int main(void)$/;"	f	signature:(void)
+main	chapter2/dweight.c	/^int main(void)$/;"	f	signature:(void)
+main	chapter2/dweight2.c	/^int main(void)$/;"	f	signature:(void)
+main	chapter2/pun.c	/^int main(void)$/;"	f	signature:(void)
+main	chapter3/addfrac.c	/^int main(void)$/;"	f	signature:(void)
+main	chapter3/tprintf.c	/^int main(void)$/;"	f	signature:(void)
+main	chapter4/upc.c	/^int main(void)$/;"	f	signature:(void)
+main	chapter5/broker.c	/^int main(void)$/;"	f	signature:(void)
+main	chapter5/date.c	/^int main(void)$/;"	f	signature:(void)
+main	chapter6/checking.c	/^int main(void)$/;"	f	signature:(void)
+main	chapter6/numdigit.c	/^int main(void)$/;"	f	signature:(void)
+main	chapter6/square.c	/^int main(void)$/;"	f	signature:(void)
+main	chapter6/square2.c	/^int main(void)$/;"	f	signature:(void)
+main	chapter6/square3.c	/^int main(void)$/;"	f	signature:(void)
+main	chapter6/sum.c	/^int main(void)$/;"	f	signature:(void)
+main	chapter6/test.c	/^int main(void)$/;"	f	signature:(void)
+main	chapter7/length.c	/^int main(void)$/;"	f	signature:(void)
+main	chapter7/length2.c	/^int main(void)$/;"	f	signature:(void)
+main	chapter7/sum2.c	/^int main(void)$/;"	f	signature:(void)
+main	chapter8/deal.c	/^int main(void)$/;"	f	signature:(void)
+main	chapter8/interest.c	/^int main(void)$/;"	f	signature:(void)
+main	chapter8/repdigit.c	/^int main(void)$/;"	f	signature:(void)
+main	chapter8/reverse.c	/^int main(void)$/;"	f	signature:(void)
+main	chapter8/reverse2.c	/^int main(void)$/;"	f	signature:(void)
+main	chapter9/average.c	/^int main(void)$/;"	f	signature:(void)
+main	chapter9/countdown.c	/^int main(void)$/;"	f	signature:(void)
+main	chapter9/digui.c	/^int main(void)$/;"	f	signature:(void)
+main	chapter9/prime.c	/^int main(void)$/;"	f	signature:(void)
+main	chapter9/pun2.c	/^int main(void)$/;"	f	signature:(void)
+main	chapter9/qsort.c	/^int main(void)$/;"	f	signature:(void)
+make_empty	chapter10/stack.c	/^void make_empty(void)$/;"	f	signature:(void)
+new_secret_number	chapter10/guess2.c	/^int new_secret_number(void)$/;"	f	signature:(void)
+num_in_rank	chapter10/poker.c	/^int num_in_rank[NUM_RANKS];$/;"	v
+num_in_suit	chapter10/poker.c	/^int num_in_suit[NUM_SUITS];$/;"	v
+pairs	chapter10/poker.c	/^int pairs;$/;"	v
+pop	chapter10/stack.c	/^int pop (void)$/;"	f	signature:(void)
+print_count	chapter9/countdown.c	/^void print_count(int n)$/;"	f	signature:(int n)
+print_pun	chapter9/pun2.c	/^void print_pun(void)$/;"	f	signature:(void)
+print_result	chapter10/poker.c	/^void print_result(void)$/;"	f	signature:(void)
+push	chapter10/stack.c	/^void push(int i)$/;"	f	signature:(int i)
+quick_sort	chapter9/qsort.c	/^void quick_sort(int a[], int low, int high)$/;"	f	signature:(int a[], int low, int high)
+read_cards	chapter10/poker.c	/^void read_cards(void)$/;"	f	signature:(void)
+read_guesses	chapter10/guess.c	/^void read_guesses(void)$/;"	f	signature:(void)
+read_guesses	chapter10/guess2.c	/^void read_guesses(int secret_number)$/;"	f	signature:(int secret_number)
+secret_number	chapter10/guess.c	/^int secret_number;$/;"	v
+split	chapter9/qsort.c	/^int split(int a[], int low, int high)$/;"	f	signature:(int a[], int low, int high)
+straight	chapter10/poker.c	/^bool straight, flush, four, three;$/;"	v
+three	chapter10/poker.c	/^bool straight, flush, four, three;$/;"	v
+top	chapter10/stack.c	/^int top = 0;$/;"	v

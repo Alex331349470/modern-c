@@ -1,7 +1,7 @@
 //Classifies a poker hand
 #include <stdio.h>
 #include <stdbool.h>
-#include <time.h>
+#include <stdlib.h>
 
 #define NUM_RANKS 13
 #define NUM_SUITS 4
