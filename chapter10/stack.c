@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdbool.h>
+
 #define STACK_SIZE 100
 
 int contents[STACK_SIZE];
