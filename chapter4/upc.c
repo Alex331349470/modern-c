@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <aio.h>
 
 int main(void)
 {
