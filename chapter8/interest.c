@@ -1,7 +1,7 @@
 //Prints a table of compound interest
 
 #include <stdio.h>
-
+#include <stdlib.h>
 #define NUM_RATES ((int)(sizeof(value) / sizeof(value[0])))
 #define INITAL_BALANCE 100.00
 
