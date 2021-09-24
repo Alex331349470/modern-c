@@ -1,3 +1,4 @@
+//Finds the largest and snallest elements in an array
 #include <stdio.h>
 
 #define N 10
@@ -8,8 +9,8 @@ int main(void)
 {
     int b[N], i, big, small;
 
-    printf("Enter %d number: ", N);
-    for(i = 0; i < N; i++)
+    printf("Enter %d numbers\n", N);
+    for (i = 0; i < N; ++i)
         scanf("%d", &b[i]);
 
     max_min(b, N, &big, &small);
@@ -22,13 +23,14 @@ int main(void)
 
 void max_min(int a[], int n, int *max, int *min)
 {
-    *max = *min =   a[0];
+    int i;
 
-    for (int i = 0; i < n; i++) {
+    *max = *min = a[0];
+    for (i = 0; i < n; ++i)
+    {
         if (a[i] > *max)
             *max = a[i];
         else if (a[i] < *min)
             *min = a[i];
     }
 }
-
