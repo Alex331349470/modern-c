@@ -2,7 +2,7 @@
 
 #define N 1000
 
-int count_spaces(const char *s)
+int count_spaces(char *s)
 {
 	int count = 0;
 
@@ -15,13 +15,17 @@ int count_spaces(const char *s)
 
 int main(void)
 {
-	int ch;
+	int ch, i = 0;
 	char s[N];
+	
 	printf("Enter some setence: ");
 	while((ch = getchar()) != '\n')
-        printf("%c ", ch);
+        if (i < N)
+        	s[i++] = ch;
 
-//	printf("there are %d spaces in this setence\n", count_spaces(s));
+    s[i] = '\0';
+
+	printf("there are %d spaces in this setence\n", count_spaces(s));
 
 	return 0;
 }
