@@ -19,10 +19,9 @@ int main(void)
 	char s[N];
 	printf("Enter some setence: ");
 	while((ch = getchar()) != '\n')
-		for (int i = 0; i < N; ++i)
-			s[i] = ch;
+        printf("%c ", ch);
 
-	printf("there are %d spaces in this setence\n", count_spaces(s));
+//	printf("there are %d spaces in this setence\n", count_spaces(s));
 
 	return 0;
 }
