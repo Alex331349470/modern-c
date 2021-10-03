@@ -7,7 +7,6 @@
 #define MAX_REMIND 50
 
 int read_line(char str[], int n);
-
 int main(void)
 {
     char reminders[MAX_REMIND][MSG_LEN+3];
