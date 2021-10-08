@@ -21,7 +21,7 @@ int main(void)
             break;
         }
 
-        printf("Enter dat and reminders: ");
+        printf("Enter date and reminders: ");
         scanf("%2d", &day);
         if (day == 0)
             break;

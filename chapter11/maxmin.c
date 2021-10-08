@@ -7,6 +7,11 @@ void max_min(int a[], int n, int *max, int *min);
 
 int main(void)
 {
+    int *p = (int []) {3, 0 , 3, 4, 1};
+
+    int a[] = {3, 0, 3, 4, 1};
+    int *s = &a[1];
+
     int b[N], i, big, small;
 
     printf("Enter %d numbers\n", N);

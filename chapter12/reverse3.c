@@ -13,6 +13,8 @@ int read_line(char str[], int n)
     return i;
 }
 
+void test(void);
+
 int main(void)
 {
 	int a[N], *p;
@@ -26,6 +28,12 @@ int main(void)
 		printf("%d ", *p);
 
 	printf("\n");
+    test();
 
 	return 0;
+}
+
+void test(void)
+{
+    printf("test for this test");
 }
