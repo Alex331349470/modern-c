@@ -1,0 +1,119 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+FREEZING_PT	chapter2/celsius.c	4;"	d	file:
+INITIAL_BALANCE	chapter8/interest.c	5;"	d	file:
+MAX_NUMBER	chapter10/guess.c	5;"	d	file:
+MAX_REMIND	chapter13/remind.c	7;"	d	file:
+MSG_LEN	chapter13/remind.c	6;"	d	file:
+N	chapter11/maxmin.c	4;"	d	file:
+N	chapter12/reverse3.c	4;"	d	file:
+N	chapter12/test.c	3;"	d	file:
+N	chapter13/test.c	3;"	d	file:
+N	chapter7/reverse.c	4;"	d	file:
+N	chapter9/qsort.c	4;"	d	file:
+NUM_CARDS	chapter10/poker.c	7;"	d	file:
+NUM_RANKS	chapter10/poker.c	5;"	d	file:
+NUM_RANKS	chapter8/deal.c	7;"	d	file:
+NUM_RATES	chapter8/interest.c	4;"	d	file:
+NUM_SUITS	chapter10/poker.c	6;"	d	file:
+NUM_SUITS	chapter8/deal.c	8;"	d	file:
+PI	chapter2/p2.c	4;"	d	file:
+SCALE_FACTOR	chapter2/celsius.c	5;"	d	file:
+STACK_SIZE	chapter13/ns.c	9;"	d	file:
+_GNU_SOURCE	chapter13/ns.c	1;"	d	file:
+analyze_hand	chapter10/poker.c	/^void analyze_hand(void)$/;"	f
+average	chapter9/average.c	/^double average(double a, double b)$/;"	f
+choose_new_secret_number	chapter10/guess.c	/^int choose_new_secret_number(void)$/;"	f
+container_args	chapter13/ns.c	/^char* const container_args[] = {$/;"	v
+container_main	chapter13/ns.c	/^int container_main()$/;"	f
+container_stack	chapter13/ns.c	/^static char container_stack[STACK_SIZE];$/;"	v	file:
+flush	chapter10/poker.c	/^bool straight, flush, four, three;$/;"	v
+four	chapter10/poker.c	/^bool straight, flush, four, three;$/;"	v
+get_largest	chapter12/test.c	/^int get_largest(int a[], int n)$/;"	f
+get_largest	chapter13/test.c	/^int get_largest(int a[], int n)$/;"	f
+initialize_number_generator	chapter10/guess.c	/^void initialize_number_generator(void)$/;"	f
+is_prime	chapter9/prime.c	/^bool is_prime(int n)$/;"	f
+main	chapter10/guess.c	/^int main(void)$/;"	f
+main	chapter10/poker.c	/^int main(void)$/;"	f
+main	chapter11/maxmin.c	/^int main(void)$/;"	f
+main	chapter12/reverse3.c	/^int main(int argc, char const *argv[])$/;"	f
+main	chapter12/test.c	/^int main(void)$/;"	f
+main	chapter13/ns.c	/^int main()$/;"	f
+main	chapter13/remind.c	/^int main(void)$/;"	f
+main	chapter13/test.c	/^int main()$/;"	f
+main	chapter13/test2.c	/^int main(void)$/;"	f
+main	chapter2/celsius.c	/^int main(void)$/;"	f
+main	chapter2/dweight.c	/^int main(void)$/;"	f
+main	chapter2/dweight2.c	/^int main(void)$/;"	f
+main	chapter2/ex1.c	/^int main(void)$/;"	f
+main	chapter2/p1.c	/^int main(void)$/;"	f
+main	chapter2/p2.c	/^int main(void)$/;"	f
+main	chapter2/p3.c	/^int main(void)$/;"	f
+main	chapter2/p5.c	/^int main(void)$/;"	f
+main	chapter2/p7.c	/^int main(void)$/;"	f
+main	chapter2/p8.c	/^int main(void)$/;"	f
+main	chapter2/pun.c	/^int main(void)$/;"	f
+main	chapter2/test.c	/^int main(void)$/;"	f
+main	chapter3/addfrac.c	/^int main(void)$/;"	f
+main	chapter3/e1.c	/^int main(void)$/;"	f
+main	chapter3/e2.c	/^int main(void)$/;"	f
+main	chapter3/e3.c	/^int main(void)$/;"	f
+main	chapter3/e4.c	/^int main(void)$/;"	f
+main	chapter3/p1.c	/^int main(void)$/;"	f
+main	chapter3/p2.c	/^int main(void)$/;"	f
+main	chapter3/p3.c	/^int main(void)$/;"	f
+main	chapter3/tprintf.c	/^int main(void)$/;"	f
+main	chapter4/e1.c	/^int main(void)$/;"	f
+main	chapter4/e2.c	/^int main(void)$/;"	f
+main	chapter4/e3.c	/^int main(void)$/;"	f
+main	chapter4/e9.c	/^int main(void)$/;"	f
+main	chapter4/p1.c	/^int main(void)$/;"	f
+main	chapter4/p4.c	/^int main(void)$/;"	f
+main	chapter4/upc.c	/^int main(void)$/;"	f
+main	chapter5/broker.c	/^int main(int argc, char const *argv[])$/;"	f
+main	chapter5/date.c	/^int main(int argc, char const *argv[])$/;"	f
+main	chapter5/e1.c	/^int main(int argc, char const *argv[])$/;"	f
+main	chapter5/e2.c	/^int main(int argc, char const *argv[])$/;"	f
+main	chapter5/p1.c	/^int main(int argc, char const *argv[])$/;"	f
+main	chapter5/p10.c	/^int main(int argc, char const *argv[])$/;"	f
+main	chapter5/p2.c	/^int main(int argc, char const *argv[])$/;"	f
+main	chapter5/p3.c	/^int main(int argc, char const *argv[])$/;"	f
+main	chapter5/p7.c	/^int main(int argc, char const *argv[])$/;"	f
+main	chapter6/checking.c	/^int main(void)$/;"	f
+main	chapter6/e1.c	/^int main(int argc, char const *argv[])$/;"	f
+main	chapter6/e3.c	/^int main(int argc, char const *argv[])$/;"	f
+main	chapter6/numdigit.c	/^int main(void)$/;"	f
+main	chapter6/p1.c	/^int main(int argc, char const *argv[])$/;"	f
+main	chapter6/p2.c	/^int main(int argc, char const *argv[])$/;"	f
+main	chapter6/square.c	/^int main(void)$/;"	f
+main	chapter6/square2.c	/^int main(void)$/;"	f
+main	chapter6/sum.c	/^int main(void)$/;"	f
+main	chapter7/length.c	/^int main(void)$/;"	f
+main	chapter7/repdigit.c	/^int main(void)$/;"	f
+main	chapter7/reverse.c	/^int main(int argc, char const *argv[])$/;"	f
+main	chapter7/sum2.c	/^int main(int argc, char const *argv[])$/;"	f
+main	chapter7/test.c	/^int main(void)$/;"	f
+main	chapter8/deal.c	/^int main(void)$/;"	f
+main	chapter8/interest.c	/^int main(void)$/;"	f
+main	chapter8/reverse2.c	/^int main(void)$/;"	f
+main	chapter9/average.c	/^int main(void)$/;"	f
+main	chapter9/countdown.c	/^int main(void)$/;"	f
+main	chapter9/prime.c	/^int main(void)$/;"	f
+main	chapter9/qsort.c	/^int main(void)$/;"	f
+max_min	chapter11/maxmin.c	/^void max_min(int a[], int n, int *max, int *min)$/;"	f
+num_in_rank	chapter10/poker.c	/^int num_in_rank[NUM_RANKS];$/;"	v
+num_in_suit	chapter10/poker.c	/^int num_in_suit[NUM_SUITS];$/;"	v
+pairs	chapter10/poker.c	/^int pairs;$/;"	v
+print_count	chapter9/countdown.c	/^void print_count(int n)$/;"	f
+print_result	chapter10/poker.c	/^void print_result(void)$/;"	f
+quick_sort	chapter9/qsort.c	/^void quick_sort(int a[], int low, int high)$/;"	f
+read_cards	chapter10/poker.c	/^void read_cards(void)$/;"	f
+read_guesses	chapter10/guess.c	/^void read_guesses(int secret_number)$/;"	f
+read_line	chapter13/remind.c	/^int read_line(char str[], int n)$/;"	f
+split	chapter9/qsort.c	/^int split(int a[], int low, int high)$/;"	f
+straight	chapter10/poker.c	/^bool straight, flush, four, three;$/;"	v
+three	chapter10/poker.c	/^bool straight, flush, four, three;$/;"	v

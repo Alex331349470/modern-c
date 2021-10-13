@@ -13,12 +13,14 @@ char* const container_args[] = {
     NULL
 };
 
-int container_main(void* arg)
+int container_main()
 {
     printf("Container - inside the container!\n");
     execv(container_args[0], container_args);
     printf("Something's wrong!\n");
-    
+    printf("my name is chen tian ming");
+    printf("\n");
+
     return 1;
 }
 
