@@ -13,7 +13,7 @@ int main(void)
     for (p = a; p < a + N; p++)
         scanf("%d", p);
 
-    printf("The largest number is: %d\n", get_largest(a, N));
+    printf("The largest number is %d\n", get_largest(a, N));
 
     return 0;
 }
