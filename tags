@@ -29,7 +29,7 @@ analyze_hand	chapter10/poker.c	/^void analyze_hand(void)$/;"	f
 average	chapter9/average.c	/^double average(double a, double b)$/;"	f
 choose_new_secret_number	chapter10/guess.c	/^int choose_new_secret_number(void)$/;"	f
 container_args	chapter13/ns.c	/^char* const container_args[] = {$/;"	v
-container_main	chapter13/ns.c	/^int container_main()$/;"	f
+container_main	chapter13/ns.c	/^int container_main(void* arg)$/;"	f
 container_stack	chapter13/ns.c	/^static char container_stack[STACK_SIZE];$/;"	v	file:
 flush	chapter10/poker.c	/^bool straight, flush, four, three;$/;"	v
 four	chapter10/poker.c	/^bool straight, flush, four, three;$/;"	v
