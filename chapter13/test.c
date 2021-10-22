@@ -22,10 +22,9 @@ int get_largest(int a[], int n)
     int max = a[0], *p;
 
     for (p = a; p < a + n; p++)
-        if(max < *p)
+        if (max < *p)
             max = *p;
 
     return max;
 }
-
 
