@@ -27,4 +27,3 @@ int get_largest(int a[], int n)
 
     return max;
 }
-
