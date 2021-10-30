@@ -13,7 +13,7 @@ char* const container_args[] = {
     NULL
 };
 
-int container_main()
+int container_main(void)
 {
     printf("Container - inside the container!\n");
     execv(container_args[0], container_args);

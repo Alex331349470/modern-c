@@ -11,7 +11,7 @@ int main(void)
     printf("Enter %d numbers: ", N);
     for (p = a; p < a + N; p++)
         scanf("%d", p);
-
+    
     printf("The largest number is %d.\n", get_largest(a, N));
 
     return 0;

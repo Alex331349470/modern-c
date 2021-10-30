@@ -8,12 +8,11 @@ int main(void)
 {
 	int a[N], *p;
 
-	printf("Enter %d numbers: ", N);
-
+	printf("Enter %d numbers:\n", N);
 	for (p = a; p < a + N; p++)
 		scanf("%d", p);
 
-	printf("The largest number is %d.\n", get_largest(a, N));
+	printf("The largest number is: %d.\n", get_largest(a, N));
 
 	return 0;
 }
