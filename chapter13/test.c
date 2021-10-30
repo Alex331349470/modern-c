@@ -9,9 +9,10 @@ int main(void)
     int a[N], *p;
 
     printf("Enter %d numbers: ", N);
+
     for (p = a; p < a + N; p++)
         scanf("%d", p);
-    
+
     printf("The largest number is %d.\n", get_largest(a, N));
 
     return 0;
@@ -19,7 +20,7 @@ int main(void)
 
 int get_largest(int a[], int n)
 {
-    int max = a[0], *p;
+    int max, *p;
 
     for (p = a; p < a + n; p++)
         if (max < *p)
