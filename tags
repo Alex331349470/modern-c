@@ -31,10 +31,10 @@ choose_new_secret_number	chapter10/guess.c	/^int choose_new_secret_number(void)$
 container_args	chapter13/ns.c	/^char* const container_args[] = {$/;"	v
 container_main	chapter13/ns.c	/^int container_main(void)$/;"	f
 container_stack	chapter13/ns.c	/^static char container_stack[STACK_SIZE];$/;"	v	file:
+find_largest	chapter13/test.c	/^int find_largest(int a[], int n)$/;"	f
 flush	chapter10/poker.c	/^bool straight, flush, four, three;$/;"	v
 four	chapter10/poker.c	/^bool straight, flush, four, three;$/;"	v
 get_largest	chapter12/test.c	/^int get_largest(int a[], int n)$/;"	f
-get_largest	chapter13/test.c	/^int get_largest(int a[], int n)$/;"	f
 initialize_number_generator	chapter10/guess.c	/^void initialize_number_generator(void)$/;"	f
 is_prime	chapter9/prime.c	/^bool is_prime(int n)$/;"	f
 main	chapter10/guess.c	/^int main(void)$/;"	f

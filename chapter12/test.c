@@ -6,24 +6,24 @@ int get_largest(int a[], int n);
 
 int main(void)
 {
-	int a[N], *p;
+    int a[N], *p;
 
-	printf("Enter %d numbers:\n", N);
-	for (p = a; p < a + N; p++)
-		scanf("%d", p);
+    printf("Enter %d numbers: ", N);
+    for (p = a; p < a + N; p++)
+        scanf("%d", p);
 
-	printf("The largest number is: %d.\n", get_largest(a, N));
+    printf("The largest number is %d.\n", get_largest(a, N));
 
-	return 0;
+    return 0;
 }
 
 int get_largest(int a[], int n)
 {
-	int max = a[0], *p;
+    int max = a[0], *p;
 
-	for (p = a; p < a + n; p++)
-		if (max < *p)
-			max = *p;
+    for (p = a; p < a + n; p++)
+        if (max < *p)
+            max = *p;
 
-	return max;
+    return max;
 }
