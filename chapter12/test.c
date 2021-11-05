@@ -7,7 +7,6 @@ int get_largest(int a[], int n);
 int main(void)
 {
     int a[N], *p;
-
     printf("Enter %d numbers: ", N);
     for (p = a; p < a + N; p++)
         scanf("%d", p);
