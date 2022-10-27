@@ -2,7 +2,11 @@
 
 int main (void)
 {
-    printf("test file");
+    int n;
+    printf("Enter a integer: ");
+    scanf("%d", &n);
+
+    printf("The input integer is %d\n", n);
 
     return 0;
 }
