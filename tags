@@ -21,7 +21,6 @@ N	chapter8/repdigit.c	3;"	d	file:
 N	chapter8/reverse.c	3;"	d	file:
 N	chapter9/e10.c	3;"	d	file:
 N	chapter9/qsort.c	3;"	d	file:
-NUM	chapter11/maxmin.c	3;"	d	file:
 NUM_CARDS	chapter10/poker.c	7;"	d	file:
 NUM_OF_ARRAY	chapter8/reverse.c	4;"	d	file:
 NUM_RANKS	chapter10/poker.c	5;"	d	file:
@@ -36,7 +35,6 @@ ROW	chapter9/p3.c	3;"	d	file:
 SCALE_FACTOR	chapter2/celsius.c	4;"	d	file:
 analyze_hand	chapter10/poker.c	/^void analyze_hand(void)$/;"	f
 average	chapter9/e10.c	/^int average(int a[], int n)$/;"	f
-avg_sum	chapter11/maxmin.c	/^void avg_sum(double a[], int n, double *avg , double *sum)$/;"	f
 bigest	chapter9/e10.c	/^int bigest(int a[], int n)$/;"	f
 caculate	chapter9/p6.c	/^double caculate(double x)$/;"	f
 check	chapter9/e2.c	/^int check(int x, int y, int n)$/;"	f
@@ -49,7 +47,6 @@ evaluate_position	chapter9/e13.c	/^int evaluate_position(char board[8][8])$/;"	f
 fact	chapter9/e16.c	/^int fact(int n)$/;"	f
 fact	chapter9/e17.c	/^int fact(int n)$/;"	f
 fact_v2	chapter9/e17.c	/^int fact_v2(int n)$/;"	f
-find_two_largest	chapter11/maxmin.c	/^void find_two_largest(int a[], int n, int *largest, int *second_largest)$/;"	f
 flush	chapter10/poker.c	/^bool straight, flush, four, three;$/;"	v
 four	chapter10/poker.c	/^bool straight, flush, four, three;$/;"	v
 gcd	chapter9/e3.c	/^int gcd(int m, int n)$/;"	f
@@ -64,10 +61,10 @@ main	chapter1/test.c	/^int main(void)$/;"	f
 main	chapter10/guess.c	/^int main(void)$/;"	f
 main	chapter10/guess2.c	/^int main (void)$/;"	f
 main	chapter10/poker.c	/^int main (void)$/;"	f
-main	chapter11/e7.c	/^int main (void)$/;"	f
-main	chapter11/maxmin.c	/^int main (void)$/;"	f
-main	chapter11/p1.c	/^int main (void)$/;"	f
 main	chapter11/test.c	/^int main (void)$/;"	f
+main	chapter11/test2.c	/^int main (void)$/;"	f
+main	chapter12/test.c	/^int main (void)$/;"	f
+main	chapter12/test1.c	/^int main (void)$/;"	f
 main	chapter2/celsius.c	/^int main(void)$/;"	f
 main	chapter2/dweight.c	/^int main(void)$/;"	f
 main	chapter2/dweight2.c	/^int main(void)$/;"	f
@@ -185,7 +182,6 @@ main	chapter9/qsort.c	/^int main(void)$/;"	f
 main	chapter9/test.c	/^int main (void)$/;"	f
 main	chapter9/test_array.c	/^int main (void)$/;"	f
 main	chapter9/test_generic.c	/^int main (void)$/;"	f
-maxmin	chapter11/maxmin.c	/^void maxmin(int a[], int n, int *max, int *min)$/;"	f
 median	chapter9/e15.c	/^double median(double x, double y, double z)$/;"	f
 num_digits	chapter9/e5.c	/^int num_digits(int n)$/;"	f
 num_digits	chapter9/e6.c	/^int num_digits(int n)$/;"	f
@@ -193,7 +189,6 @@ num_in_rank	chapter10/poker.c	/^int num_in_rank[NUM_RANKS];$/;"	v
 num_in_suit	chapter10/poker.c	/^int num_in_suit[NUM_SUITS];$/;"	v
 number_of_positive	chapter9/e10.c	/^int number_of_positive(int a[], int n)$/;"	f
 pairs	chapter10/poker.c	/^int pairs;$/;"	v
-pay_amount	chapter11/p1.c	/^void pay_amount(int dollars, int *twenties, int *tens, int *fives, int *ones)$/;"	f
 pb	chapter9/e19.c	/^void pb (int n)$/;"	f
 play_game	chapter9/p8.c	/^bool play_game(void)$/;"	f
 print_pun	chapter9/pun2.c	/^void print_pun(void)$/;"	f
@@ -208,9 +203,6 @@ selection_sort	chapter9/p1.c	/^void selection_sort(int a[], int n) {$/;"	f
 simple_fact	chapter9/e16.c	/^int simple_fact(int n)$/;"	f
 sin	chapter9/test_generic.c	5;"	d	file:
 split	chapter9/qsort.c	/^int split(int a[], int low, int high)$/;"	f
-split_date	chapter11/e7.c	/^void split_date (int day_of_year, int year, int *month, int *day)$/;"	f
-split_time	chapter11/maxmin.c	/^void split_time(long total_sec, int *hr, int *min, int *sec)$/;"	f
 straight	chapter10/poker.c	/^bool straight, flush, four, three;$/;"	v
-swap	chapter11/maxmin.c	/^void swap(int *p, int *q)$/;"	f
 swap	chapter9/e9.c	/^void swap (int a, int b)$/;"	f
 three	chapter10/poker.c	/^bool straight, flush, four, three;$/;"	v
