@@ -2,12 +2,11 @@
 
 int main (void)
 {
-    int num;
-    printf("Enter a integer:");
-    scanf("%d", &num);
+    int n;
+    printf("Please enter a integer: ");
+    scanf("%d", &n);
 
-    printf("The input number is %d\n", num);
+    printf("The input number is %d\n", n);
 
     return 0;
 }
-
