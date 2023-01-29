@@ -1,8 +1,10 @@
 #include <stdio.h>
 
+//main function
 int main (void)
 {
-    printf("To C, or not to C: that is a question.\n");
+    //print a pun
+    printf("To C, or not to C: that is the question.\n");
 
     return 0;
 }
