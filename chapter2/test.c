@@ -3,10 +3,9 @@
 int main (void)
 {
     printf("Enter a integer: ");
-    int n;
-    scanf("%d", &n);
-
-    printf("The number you entered is %d.\n", n);
+    int a;
+    scanf("%d", &a);
+    printf("The integer you entered is %d\n", a);
 
     return 0;
 }
