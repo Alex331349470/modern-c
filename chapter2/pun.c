@@ -2,7 +2,7 @@
 
 int main (void)
 {
-    printf("Hello world!\n");
+    printf("To C, or not to C: that is the question.\n");
 
     return 0;
 }
