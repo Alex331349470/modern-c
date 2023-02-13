@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int main(void)
+int main (void)
 {
-    printf("To C, or not to C: that is a question.\n");
+    printf("Hello world!\n");
 
     return 0;
 }
