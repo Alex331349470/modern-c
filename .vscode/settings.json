@@ -1,16 +1,20 @@
 {
-    "sqltools.connections": [
-        {
-            "mysqlOptions": {
-                "authProtocol": "default"
-            },
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 3306,
-            "driver": "MySQL",
-            "name": "local-mysql",
-            "database": "heros",
-            "username": "root"
-        }
-    ]
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "local-mysql",
+      "database": "heros",
+      "username": "root"
+    }
+  ],
+  "C_Cpp.default.compilerPath": "/usr/bin/gcc-11",
+  "files.associations": {
+    "math.h": "c"
+  }
 }

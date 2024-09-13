@@ -2,11 +2,10 @@
 
 void addAndPrint(int a, int b)
 {
-    int c = a + b;
-    printf("c = %d\n", c);
+    printf("c = %d\n", a + b);
 }
 
-int main()
+int main(void)
 {
     int a = 5;
     int b = 3;
