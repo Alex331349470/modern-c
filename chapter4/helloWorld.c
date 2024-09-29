@@ -1,12 +1,8 @@
 #include <stdio.h>
 
 int main(void) {
-  int num;
-  printf("Please enter a number:");
-
-  scanf("%d", &num);
-
-  printf("You entered: %d\n", num);
+  printf("This is a awesome plugin for nvim, and I can type the code very "
+         "smooth and happy.\n");
 
   return 0;
 }
