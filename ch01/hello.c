@@ -2,6 +2,7 @@
 
 int main(void)
 {
-    printf("Hello, World!\n");
+    printf("this is a test for c language\n");
+
     return 0;
 }
