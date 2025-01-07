@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-double average(double a, double b) { return (a + b) / 2; }
+double average(double, double);
 
 int main(void) {
   double x, y, z;
@@ -14,3 +14,5 @@ int main(void) {
 
   return 0;
 }
+
+double average(double a, double b) { return (a + b) / 2; }
