@@ -6,26 +6,31 @@
 #define NUM_SUITS 4
 #define NUM_CARDS 5
 
-bool straight, flush, four, three;
-int pairs;
-
-//prototypes
-void read_cards(int num_in_hand[][NUM_SUITS]);
-void analyze_hand(int num_in_hand[][NUM_SUITS]);
-void print_result(void);
+void read_cards(int num_in_rank[], int num_in_suit[]);
+void analyze_hand(int num_in_rank[], int num_in_suit[], 
+                 bool *straight, bool *flush, bool *four, 
+                 bool *three, int *pairs);
+void print_result(bool straight, bool flush, bool four, 
+                 bool three, int pairs);
 
 int main(void)
 {
-    int hand[NUM_RANKS][NUM_SUITS];
+    int num_in_rank[NUM_RANKS];
+    int num_in_suit[NUM_SUITS];
+    bool straight, flush, four, three;
+    int pairs;
+    
     for(;;)
     {
-        read_cards(hand);
-        analyze_hand(hand);
-        print_result();
+        read_cards(num_in_rank, num_in_suit);
+        analyze_hand(num_in_rank, num_in_suit, 
+                    &straight, &flush, &four, 
+                    &three, &pairs);
+        print_result(straight, flush, four, three, pairs);
     }
 }
 
-void read_cards(int num_in_hand[][NUM_SUITS])
+void read_cards(int num_in_rank[], int num_in_suit[])
 {
     bool card_exists[NUM_RANKS][NUM_SUITS];
     char ch, rank_ch, suit_ch;
@@ -97,21 +102,23 @@ void read_cards(int num_in_hand[][NUM_SUITS])
     }
 }
 
-void analyze_hand(int num_in_hand[][NUM_SUITS])
+void analyze_hand(int num_in_rank[], int num_in_suit[],
+                 bool *straight, bool *flush, bool *four, 
+                 bool *three, int *pairs)
 {
     int num_consec = 0;
     int rank, suit;
 
-    straight = false;
-    flush = false;
-    four = false;
-    three = false;
-    pairs = 0;
+    *straight = false;
+    *flush = false;
+    *four = false;
+    *three = false;
+    *pairs = 0;
 
     // check for flush
     for (suit = 0; suit < NUM_SUITS; suit++)
         if (num_in_suit[suit] == NUM_CARDS)
-            flush = true;
+            *flush = true;
 
     // check for straight
     rank = 0;
@@ -121,20 +128,21 @@ void analyze_hand(int num_in_hand[][NUM_SUITS])
         num_consec++;
     if (num_consec == NUM_CARDS)
     {
-        straight = true;
+        *straight = true;
         return;
     }
 
     // check for 4-of-a-kind, 3-of-a-kind, and pairs
     for (rank = 0; rank < NUM_RANKS; rank++)
     {
-        if (num_in_rank[rank] == 4) four = true;
-        if (num_in_rank[rank] == 3) three = true;
-        if (num_in_rank[rank] == 2) pairs++;
+        if (num_in_rank[rank] == 4) *four = true;
+        if (num_in_rank[rank] == 3) *three = true;
+        if (num_in_rank[rank] == 2) (*pairs)++;
     }
 }
 
-void print_result(void)
+void print_result(bool straight, bool flush, bool four, 
+                 bool three, int pairs)
 {
     if (straight && flush) printf("Straight flush");
     else if (four)          printf("Four of a kind");
