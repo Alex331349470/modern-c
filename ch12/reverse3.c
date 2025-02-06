@@ -1,11 +1,9 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 #define N 10
 
 int main(void) {
   int a[N], *p;
-
   printf("Enter %d numbers: ", N);
   for (p = a; p < a + N; p++)
     scanf("%d", p);
@@ -16,5 +14,5 @@ int main(void) {
 
   printf("\n");
 
-  exit(EXIT_SUCCESS);
+  return 0;
 }
