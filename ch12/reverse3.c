@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 #define N 10
 
@@ -15,5 +16,5 @@ int main(void) {
 
   printf("\n");
 
-  return 0;
+  exit(EXIT_SUCCESS);
 }
