@@ -1,7 +1,12 @@
 #include <stdio.h>
+#include <stdlib.h>
+
+int foo(void) {
+  printf("Hello, World!\n");
+  return EXIT_SUCCESS;
+}
 
 int main(void) {
-  printf("Hello, World!\n");
-
-  return 0;
+  foo();
+  return EXIT_SUCCESS;
 }
