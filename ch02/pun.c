@@ -6,14 +6,12 @@
 
 #include <stdio.h>
 
-int add(int a, int b);
+double add(double x, double y) { return x + y; }
 
 int main(void) {
   printf("Hello, world! I'm a bad pun.\n");
 
+  double z = add(1.0, 2.0);
+  printf("1.0 + 2.0 = %.1f\n", z);
   return 0;
-}
-
-int add(int a, int b) {
-  return a + b;
 }
