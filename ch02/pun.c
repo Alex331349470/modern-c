@@ -6,7 +6,14 @@
 
 #include <stdio.h>
 
+int add(int a, int b);
+
 int main(void) {
-  printf("To C, or not to C, that is the question.\n");
+  printf("Hello, world! I'm a bad pun.\n");
+
   return 0;
+}
+
+int add(int a, int b) {
+  return a + b;
 }
